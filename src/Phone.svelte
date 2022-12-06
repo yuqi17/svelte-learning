@@ -1,6 +1,7 @@
 <script>
     import { createEventDispatcher, onMount } from "svelte";
     import { fade } from "svelte/transition";
+    import Editor from "./Editor.svelte";
 
     export let number; // 属性
     let visible = true;
@@ -54,3 +55,7 @@
 {#if visible}
     <p transition:fade>Fades in and out</p>
 {/if}
+
+<p>
+    <Editor />
+</p>
