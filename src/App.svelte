@@ -57,9 +57,10 @@
   });
 </script>
 
-<style>
-  .active {
-    color: red;
+<style lang="less">
+  @color: yellow;
+  .haha {
+    color: @color;
   }
 </style>
 
@@ -81,7 +82,7 @@
 
 <div style="color:{color}">{state ? '雷猴' : '鲨鱼辣椒'}</div>
 
-<div class:active={foo}>Hello {name}</div>
+<div class:haha={foo}>Hello {name}</div>
 
 <button on:click|once={handleClick}>改名</button>
 
