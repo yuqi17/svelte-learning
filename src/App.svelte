@@ -2,6 +2,8 @@
   // 参考 https://juejin.cn/post/7121759118070644772
 
   // 花了2个小时左右入门
+  
+  // https://www.npmjs.com/package/svelte-router-spa svelte 的 SPA 路由, 感觉跟vue 差不多
 
   import { onMount } from "svelte";
   import Phone from "./Phone.svelte";
