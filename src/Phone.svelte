@@ -1,6 +1,5 @@
 <script>
     import { createEventDispatcher, onMount } from "svelte";
-    import { each } from "svelte/internal";
     export let number; // 属性
     let list = [{ name: "lisi" }, { name: "haha" }, { name: "waha" }];
 
