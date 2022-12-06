@@ -2,6 +2,7 @@
 ## [不错的文档,比vue, react 简洁明了](https://www.sveltejs.cn/docs), 看了之后发现这东西很像vue, 特别是动画方面, 也有类似react 的 context 钩子
 
 ## [路由懒加载](https://www.npmjs.com/package/svelte-tory-router)
+## 综合来说,这个东西是适合写一些小应用的, 语法简单 
 
 # Svelte + Vite
 
