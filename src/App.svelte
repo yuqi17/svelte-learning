@@ -1,7 +1,17 @@
 <script>
-  // 参考 https://juejin.cn/post/7121759118070644772
-
+  
   // 花了2个小时左右入门
+  
+  // 参考 https://juejin.cn/post/7121759118070644772
+  
+  // https://www.npmjs.com/package/svelte-router-spa svelte 的 SPA 路由, 感觉跟vue 差不多
+  
+  // https://zhuanlan.zhihu.com/p/369408950   svelte 自带状态管理
+  
+  // svelte 更新视图的原理 和 跟 react , vue 不同的地方
+  // https://juejin.cn/post/7028760010058367012
+  // https://segmentfault.com/a/1190000040065124 
+
 
   import { onMount } from "svelte";
   import Phone from "./Phone.svelte";
