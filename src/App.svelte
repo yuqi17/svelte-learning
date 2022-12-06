@@ -1,6 +1,8 @@
 <script>
   // 参考 https://juejin.cn/post/7121759118070644772
 
+  // 花了2个小时左右入门
+
   import { onMount } from "svelte";
   import Phone from "./Phone.svelte";
 
