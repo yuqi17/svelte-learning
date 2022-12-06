@@ -8,7 +8,10 @@
   
   // https://zhuanlan.zhihu.com/p/369408950   svelte 自带状态管理
   
-  // https://segmentfault.com/a/1190000040065124 svelte 更新视图的原理 和 跟 react , vue 不同的地方
+  // svelte 更新视图的原理 和 跟 react , vue 不同的地方
+  // https://juejin.cn/post/7028760010058367012
+  // https://segmentfault.com/a/1190000040065124 
+
 
   import { onMount } from "svelte";
   import Phone from "./Phone.svelte";
