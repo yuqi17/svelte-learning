@@ -1,6 +1,10 @@
 <script>
     import { createEventDispatcher, onMount } from "svelte";
+    import { fade } from "svelte/transition";
+
     export let number; // 属性
+    let visible = true;
+
     let list = [{ name: "lisi" }, { name: "haha" }, { name: "waha" }];
 
     const dispatch = createEventDispatcher();
@@ -46,3 +50,7 @@
 </ul>
 
 <slot>默认值</slot>
+<p><button on:click={() => (visible = !visible)}>切换</button></p>
+{#if visible}
+    <p transition:fade>Fades in and out</p>
+{/if}
