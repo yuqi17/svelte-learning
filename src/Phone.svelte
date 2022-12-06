@@ -22,8 +22,10 @@
 </p>
 
 <p>
-    svelte 是基于赋值变化来更新的, 因此splice push 不行
-    https://www.sveltejs.cn/tutorial/updating-arrays-and-objects
+    <a href="https://www.sveltejs.cn/tutorial/updating-arrays-and-objects">
+        svelte 是基于赋值变化来更新的, 因此splice push 不行
+    </a>
+
     <button
         on:click={() => {
             list[1] = { name: '6666' };
