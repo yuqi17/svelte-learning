@@ -36,10 +36,10 @@
   $: doubled = count * 2;
 
   let color = "red";
-  let foo = true;
+  let foo = false;
   setTimeout(() => {
     color = "blue";
-    foo = false;
+    foo = true;
     state = true;
     count = 2;
   }, 2000);
